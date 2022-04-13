@@ -30,9 +30,9 @@ body {
 }
 
 .book h4{
-    color: red;
-    letter-spacing: 5px;
-
+    color: #f17d98;
+    font-size: .75rem;
+    margin-top: .25rem;
 }
 
 
