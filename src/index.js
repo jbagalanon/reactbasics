@@ -2,20 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
+
+import './index.css'; //importing file
+
+
 function BookList() {
-  return (<section>
+  return (<section class='booklist'>
     <Book />
     <Book />
     <Book />
     <Book />
     <Book />
-    
+
   </section>
   );
 }
 
 const Book = () => {
-  return <article><Image></Image>
+  return <article className='book'><Image></Image>
     <Title />
     <Author />
   </article>;
